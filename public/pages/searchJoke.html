@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="./searchJoke.js"></script>
+    <title>Search For a Joke</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Search For a Joke</h1>
+        <span class="navigation">
+            <h2 class="nav3"><a href="../"></a>Home</a></h2>
+            <h2 class="nav2"><a href="./definition.html">What Is a Dad Joke</a></h2>
+            <h2 class="nav3"><a href="./randomJoke.html">Random Joke</a></h2>
+        </span>
+    </header>
+    <input type="input" value="">
+    <button onClick="searchJokes()" >search</button>
+    <button class="nextPage" onClick='searchJokes("next page")' disabled="true">next page</button>
+    <button class="prevPage" onClick='searchJokes("prev page")' disabled="true">prev page</button>
+    <article><h2 class="jokeResults"></h2></article>
+</body>
+</html>
